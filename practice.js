@@ -73,6 +73,16 @@ false, 0, "", null, undefined, NaN
 
 use an if statement
 
+var name = 'jason';
+var result;
+
+if(name){
+  true;
+} else {
+  false;
+}
+
+
 //Next Problem
 
 
