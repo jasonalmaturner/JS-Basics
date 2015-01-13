@@ -74,7 +74,6 @@ false, 0, "", null, undefined, NaN
 use an if statement
 
 var name = 'jason';
-var result;
 
 if(name){
   true;
@@ -108,7 +107,7 @@ newMyName()
 
 //Create a function called outerFn which returns an anonymous function which returns your name.
 
-function outerFn(){
+var outerFn = function (){
   return function(){
     return "Jason";
   };
